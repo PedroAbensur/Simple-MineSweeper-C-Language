@@ -3,7 +3,7 @@
 #include <time.h>
 #define N 9
 
-int n_bombs (int l, int c, char M[][N], int n) {
+int n_bombas (int l, int c, char M[][N], int n) {
     int contador_bombas = 0;
     int i = l, j = c;
     char cima = M[i-1][j], baixo = M[i+1][j], esquerda = M[i][j-1], direita = M[i][j+1];
